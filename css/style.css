@@ -130,6 +130,7 @@ main nav {
   width: 15%;
   border-radius: 10px;
   background-color: var(--bg-white);
+  box-shadow: 0 2px 21px 0px rgb(14 66 89 / 45%);
 }
 
 main nav ul {
@@ -142,9 +143,16 @@ main nav ul {
 }
 
 main nav ul li {
+  margin-left: 10px;
+  width: 80%;
   color: var(--text-black);
   font-weight: bold;
   text-indent: 10%;
+}
+
+main nav ul li:hover {
+  border-radius: 5px;
+  background-color: rgba(79, 163, 182, 0.5);
 }
 
 main nav ul li a {
