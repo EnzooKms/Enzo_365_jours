@@ -84,8 +84,14 @@ header img {
 main {
   background-color: var(--bg-blue);
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   padding: 5vh 0;
+}
+
+main div:nth-child(1) {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 main section {
@@ -148,6 +154,7 @@ main nav ul li {
   color: var(--text-black);
   font-weight: bold;
   text-indent: 10%;
+  text-transform: uppercase;
 }
 
 main nav ul li:hover {
@@ -158,4 +165,12 @@ main nav ul li:hover {
 main nav ul li a {
   color: var(--bg-blue-2);
   margin-right: 10px;
+}
+
+main div:nth-child(2) picture {
+  width: 50%;
+}
+
+main div:nth-child(2) picture img {
+  width: 40%;
 }
